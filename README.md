@@ -14,3 +14,5 @@ It accepts a 9x7 connect 4 board as a string input in the format as follows:
 ```
 where 0 represents player who went first and 1 represents 2nd player.
 
+THe bot attempts to scan horizontally, vertically, and in diagnols for potential 4 in a rows to either block the opponent or take the next optimal move.
+
